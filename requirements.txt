@@ -1,4 +1,4 @@
-panda3d==1.10.13
+panda3d==1.10.15
 numpy==1.24.3
 pygame==2.5.0  # For sound handling
 noise==1.2.2  # For procedural generation

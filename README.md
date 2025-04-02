@@ -10,10 +10,18 @@ A first-person horror exploration game built with Panda3D, combining elements of
 - Low-poly stylized graphics with horror elements
 
 ## Setup
-1. Install Python 3.8+
-2. Install dependencies:
+1. Install Python 3.8+ from [python.org](https://www.python.org/downloads/):
+   - Download the installer for Windows
+   - **Important**: Check "Add Python to PATH" during installation
+   - **Important**: Do NOT install from Microsoft Store
+2. Create and activate virtual environment:
 ```bash
-pip install -r requirements.txt
+python -m venv .venv
+.venv\Scripts\activate
+```
+3. Install dependencies:
+```bash
+python -m pip install -r requirements.txt
 ```
 
 ## Development
@@ -25,4 +33,3 @@ pip install -r requirements.txt
 ## Running the Game
 ```bash
 python src/main.py
-```
